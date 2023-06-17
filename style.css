@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header {
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    word-wrap: break-word;
+}
+a {
+    color: yellow;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+.NeoSchool h1 {
+    margin: 25px;
+    color: red;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    word-wrap: break-word;
+}
+.NeoSchool p {
+    margin: 5px;
+    word-wrap: break-word;
+    
+}
+.curriculum h2 {
+    text-align: center;
+    margin: 10px;
+    word-wrap: break-word;
+}
+.curriculum p {
+    text-align: center;
+    margin: 10px;
+    word-wrap: break-word;
+}
+.subject {
+    text-align: center;
+    list-style: none;
+    word-wrap: break-word;
+}
+.subject:nth-of-type(1) {
+    /* тут я задавав перелив задніх фонів */
+    background: linear-gradient(90deg, rgba(205,229,4,1) 22%, rgba(255,0,0,1) 98%);
+}
+.subject:nth-of-type(2) {
+    background: linear-gradient(90deg, rgba(4,229,202,1) 30%, rgba(26,0,255,1) 83%);
+}
+.price {
+    text-align: center;
+    word-wrap: break-word;
+}
+.form p {
+    text-align: center;
+    margin: 5px;
+    word-wrap: break-word;
+}
+.shifts p {
+    text-align: center;
+    word-wrap: break-word;
+}
+p {
+    font-weight: 700;
+    word-wrap: break-word;
+    color: mediumseagreen;
+}
+h2 {
+    text-align: center;
+    word-wrap: break-word;
+    color: blue;
+}
+ol {
+    text-align: center;
+    color: darkblue;
+    list-style: none;
+    word-wrap: break-word;
+    /* тут я задавав перелив заднього фону */
+    background: linear-gradient(0deg, rgba(181,195,34,1) 0%, rgba(45,86,253,1) 100%);
+} 
+.info {
+    border: 2px solid green;
+    height: 160px;
+    width: 300px;
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex {
+    background-color: yellow;
+    border: 2px dashed blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.signup {
+    margin: 150px 525px;
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+    word-wrap: break-word;
+}
+.footer {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer a {
+    text-decoration: none;
+    color: aqua;
+    word-wrap: break-word;
+}
